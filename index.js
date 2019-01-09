@@ -1,4 +1,7 @@
 function fetchBooks() {
+  fetch('https://anapioficeandfire.com/api/books')
+    .then (response => response.json())
+    .then(json=> console.log(json))
   //write fetch request to the Game of Thrones API
 }
 
